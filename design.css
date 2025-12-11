@@ -1,0 +1,54 @@
+/* Center everything in the page */
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Ensure images are centered too */
+img {
+  display: block;
+  margin: 10px auto;
+  max-width: 300px;
+}
+
+/* Style the table */
+table {
+  margin: 20px auto; /* center table */
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/* Form styling */
+form {
+  margin: 20px auto;
+  display: inline-block; /* keeps form centered */
+  text-align: left; /* align labels/inputs nicely */
+}
+
+/* Inputs stacked in block layout */
+input {
+  display: block;
+  margin: 5px 0 15px 0;
+  padding: 8px;
+  width: 250px;
+  max-width: 100%;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+  width: auto;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #0056b3;
+}
